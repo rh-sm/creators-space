@@ -82,7 +82,9 @@ export default function TermsOfTrust() {
                 transition={{ delay: i * 0.08, duration: 0.6 }}
               >
                 <div className="flex items-center gap-3">
-                  <Icon size={16} className="text-onix-accent flex-shrink-0" />
+                  <div className="w-7 h-7 flex items-center justify-center bg-white flex-shrink-0">
+                    <Icon size={14} className="text-onix-bg" />
+                  </div>
                   <h3 className="font-sans text-sm font-semibold text-onix-text leading-snug">
                     {item.title}
                   </h3>

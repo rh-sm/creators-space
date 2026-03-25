@@ -76,10 +76,10 @@ export default function SolutionReveal() {
                 transition={{ delay: i * 0.12, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
                 whileHover={{ backgroundColor: '#1e1e1e' }}
               >
-                <div className="w-10 h-10 flex items-center justify-center border border-onix-border group-hover:border-onix-accent transition-colors duration-300">
+                <div className="w-10 h-10 flex items-center justify-center bg-white transition-colors duration-300">
                   <Icon
                     size={18}
-                    className="text-onix-accent transition-transform duration-300 group-hover:scale-110"
+                    className="text-onix-bg transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-onix-text leading-snug">
